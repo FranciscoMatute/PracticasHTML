@@ -14,3 +14,7 @@ Bienvenidos a página de prácticas de HTML de 1º Año
 ## Sección B
 
 * [Nombres Apellid](pagina.html)
+
+  {% for page in site.pages %}
+* {{ page.url }} - {{ page.title }}
+  {% endfor %}  <!-- page -->
