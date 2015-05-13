@@ -15,6 +15,6 @@ Bienvenidos a página de prácticas de HTML de 1º Año
 
 * [Nombres Apellid](pagina.html)
 
-  {% for page in site.pages %}
+  {% for page in site.collections.legal.docs %}
 * {{ page.url }} - {{ page.title }}
   {% endfor %}  <!-- page -->
